@@ -1,0 +1,18 @@
+<svg id="Edit_pic" data-name="Edit pic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1007" data-name="Rectangle 1007" width="130.22" height="33.52" transform="translate(14.891 126.477)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1516" data-name="Group 1516">
+    <g id="Group_1491" data-name="Group 1491" opacity="0.5">
+      <g id="Group_1490" data-name="Group 1490">
+        <g id="Group_1489" data-name="Group 1489" clip-path="url(#clip-path)">
+          <path id="Path_1271" data-name="Path 1271" d="M145.111,126.477a80,80,0,0,1-130.22,0Z" fill="#202020"/>
+        </g>
+      </g>
+    </g>
+    <text id="EDIT" transform="translate(58.316 147.716)" fill="#fff" font-size="18" font-family="Heebo-Regular, Heebo"><tspan x="0" y="0" letter-spacing="0.099em">EDI</tspan><tspan y="0">T</tspan></text>
+  </g>
+  <rect id="Rectangle_1009" data-name="Rectangle 1009" width="160" height="160" fill="none"/>
+</svg>

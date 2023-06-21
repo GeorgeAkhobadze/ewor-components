@@ -1,0 +1,203 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./myAccount.css" />
+  </head>
+  <body>
+    <div class="myaccount-section">
+      <h1>My Account</h1>
+      <div class="settings-container">
+        <nav class="settings-nav">
+          <div class="setting-nav-outer setting-nav-outer--active">
+            <div class="setting-nav-inner">
+              <div class="setting-nav-content setting-nav-content-1">
+                <p>Personal Information</p>
+              </div>
+            </div>
+          </div>
+          <div class="setting-nav-outer">
+            <div class="setting-nav-inner">
+              <div class="setting-nav-content setting-nav-content-2">
+                <p>Your Start-up</p>
+              </div>
+            </div>
+          </div>
+          <div class="setting-nav-outer">
+            <div class="setting-nav-inner">
+              <div class="setting-nav-content setting-nav-content-3">
+                <p>Connect with Fellows</p>
+              </div>
+            </div>
+          </div>
+          <div class="setting-nav-outer">
+            <div class="setting-nav-inner">
+              <div class="setting-nav-content setting-nav-content-4">
+                <p>Change Password</p>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="profile-settings">
+          <div class="profile-picture">
+            <p class="profile-picture__title">
+              <b>Profile picture</b><br />
+              Personalise your account with a photo that will be visible to the
+              EWOR Community.
+            </p>
+            <div class="profile-picture__media">
+              <div class="profile-picture__circle">
+                <img
+                  alt=""
+                  class="profile-picture__circle-image"
+                  src="./assets/profile-img.png"
+                />
+                <img
+                  alt=""
+                  class="profile-picture__edit"
+                  src="/assets/edit-svg.svg"
+                />
+              </div>
+              <p>
+                <b>Maximum file size:</b> 1 MB.<br />
+                <b>Minimum dimensions:</b> 360x360 px.<br />
+                <b>Supported file types:</b> PNG, JPEG.<br />
+                <b>Hint:</b> Aim for a headshot that fills about 80% of the
+                frame.
+              </p>
+            </div>
+          </div>
+          <div class="account-inputs__container">
+            <div class="input-container">
+              <label for="username">Username</label>
+              <input type="text" name="username" placeholder="Username" />
+            </div>
+            <div class="input-container">
+              <label for="firstName">First Name</label>
+              <input type="text" name="firstName" placeholder="First Name" />
+            </div>
+            <div class="input-container">
+              <label for="middleName"
+                >Middle Name<span class="input--optional-text">
+                  (optional)</span
+                ></label
+              >
+              <input type="text" name="middleName" placeholder="Middle Name" />
+            </div>
+            <div class="input-container">
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastName" placeholder="Last Name" />
+            </div>
+            <div class="input-container">
+              <label for="email"
+                >Email Address<span class="input--optional-text">
+                  (will not be shown on the Community page)</span
+                ></label
+              >
+              <input type="email" name="email" placeholder="Email Address" />
+            </div>
+            <div class="input-container">
+              <label for="phoneNumber">Phone Number</label>
+              <div class="phone-number-wrapper">
+                <select>
+                  <option>+00</option>
+                </select>
+                <input name="phoneNumber" type="number" />
+              </div>
+            </div>
+            <div class="input-container">
+              <label for="homeAddress">Home Address</label>
+              <input
+                class="input-margin"
+                name="homeAddress"
+                placeholder="Address Line 1"
+                type="text"
+              />
+              <input
+                class="input-margin"
+                name="homeAddress2"
+                placeholder="Address Line 2"
+                type="text"
+              />
+              <div class="city-input-container">
+                <input type="text" placeholder="City" />
+                <select>
+                  <option>Country</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-container">
+              <label for="cityFound"
+                >In which cities can you often be found?</label
+              >
+              <div class="city-input-container">
+                <input type="text" placeholder="City" />
+                <button class="add-city-btn">+</button>
+              </div>
+            </div>
+            <div class="input-container">
+              <label for="biography">Bio</label>
+              <p class="input-explainer-text">
+                Please write a short bio about yourself in the third person.
+              </p>
+              <textarea
+                class="input-textarea"
+                name="biography"
+                placeholder="Bio example placeholder..."
+              ></textarea>
+            </div>
+            <div class="input-container">
+              <label for="LinkedIn">LinkedIn</label>
+              <input class="small-input" type="text" placeholder="Link" />
+            </div>
+            <div class="input-container">
+              <label for="businessExperience">Business Experience</label>
+              <p class="input-explainer-text">
+                Please write a short placeholder.
+              </p>
+              <textarea
+                class="input-textarea"
+                name="businessExperience"
+                placeholder="Business Experience example placeholder..."
+              ></textarea>
+            </div>
+            <div class="input-container">
+              <label for="areaOfExpertise">Builder or Seller</label>
+              <select>
+                <option>Neither</option>
+              </select>
+            </div>
+            <div class="input-container">
+              <label for="areaOfExpertise">Area Of Expertise</label>
+              <select>
+                <option>None</option>
+              </select>
+            </div>
+
+            <div class="input-container">
+              <label for="additionalInformation"
+                >Additional Information
+                <span class="input--optional-text"> (optional)</span></label
+              >
+              <textarea
+                class="input-textarea"
+                name="additionalInformation "
+                placeholder="Business Experience example placeholder..."
+              ></textarea>
+            </div>
+            <button class="delete-account-btn">Delete Account</button>
+          </div>
+        </div>
+      </div>
+      <div class="update-account-sticky">
+        <div class="update-account-container">
+          <button class="update-account-btn">
+            <span>Update Account</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script></script>
+</html>
