@@ -16,9 +16,10 @@ body {
 
 .myaccount-section h1 {
   font-size: 72px;
-  line-height: 10.5px;
+  line-height: normal;
   color: #ff4e00;
   font-weight: 600;
+  margin: 0;
 }
 
 .settings-container {
@@ -353,4 +354,52 @@ body {
 .optional-span {
   color: #707070;
   font-weight: 400;
+}
+
+@media (max-width: 1440px) {
+  .myaccount-section {
+    padding: 40px 50px 120px 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .myaccount-section {
+    gap: 32px;
+  }
+  .myaccount-section h1 {
+    font-size: 46px;
+  }
+  .settings-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .settings-nav {
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+  }
+  .setting-nav-outer {
+    width: 100% !important;
+  }
+  .setting-nav-inner {
+    transform: none;
+    height: auto;
+  }
+  .myaccount-section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .profile-picture__media {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .city-input-container {
+    flex-wrap: wrap;
+  }
+  .profile-settings {
+    padding-left: 16px;
+  }
+  .update-account-container {
+    margin-right: 40px;
+  }
 }
