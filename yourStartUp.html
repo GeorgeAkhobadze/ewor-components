@@ -1,0 +1,128 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./myAccount.css" />
+  </head>
+  <body>
+    <div class="myaccount-section">
+      <h1>My Account</h1>
+      <div class="settings-container">
+        <nav class="settings-nav">
+          <div class="setting-nav-outer">
+            <div class="setting-nav-inner">
+              <a
+                href="./myAccount.html"
+                class="setting-nav-content setting-nav-content-1"
+              >
+                <p>Personal Information</p>
+              </a>
+            </div>
+          </div>
+          <div class="setting-nav-outer setting-nav-outer--active">
+            <div class="setting-nav-inner">
+              <a
+                href="yourStartUp.html"
+                class="setting-nav-content setting-nav-content-2"
+              >
+                <p>Your Start-up</p>
+              </a>
+            </div>
+          </div>
+          <div class="setting-nav-outer">
+            <div class="setting-nav-inner">
+              <a
+                href="connectWithFellows.html"
+                class="setting-nav-content setting-nav-content-3"
+              >
+                <p>Connect with Fellows</p>
+              </a>
+            </div>
+          </div>
+          <div class="setting-nav-outer">
+            <div class="setting-nav-inner">
+              <a href="#" class="setting-nav-content setting-nav-content-4">
+                <p>Change Password</p>
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div class="profile-settings">
+          <div class="input-container input-container-startup">
+            <label for="startupname">Start-up name</label>
+            <input type="text" name="startupname" placeholder="Start-up name" />
+          </div>
+          <div class="profile-picture">
+            <p class="profile-picture__title">
+              <b>Start-up Logo <span class="optional-span">(optional)</span></b
+              ><br />
+            </p>
+            <div class="profile-picture__media">
+              <div class="profile-picture__circle">
+                <img
+                  alt=""
+                  class="profile-picture__edit"
+                  src="/assets/edit-svg.svg"
+                />
+              </div>
+              <p>
+                <b>Maximum file size:</b> 1 MB.<br />
+                <b>Minimum dimensions:</b> 360x360 px.<br />
+                <b>Supported file types:</b> PNG, JPEG.<br />
+              </p>
+            </div>
+          </div>
+          <div class="account-inputs__container">
+            <div class="input-container">
+              <label for="companyIndustry">Company Industry</label>
+              <div class="phone-number-wrapper">
+                <select name="companyIndustry">
+                  <option>Neither</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-container">
+              <label for="companyStage">Company Stage</label>
+              <div class="phone-number-wrapper">
+                <select name="companyStage">
+                  <option>Neither</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="input-container">
+              <label for="biography">Company Description</label>
+              <p class="input-explainer-text">placeholder</p>
+              <textarea
+                class="input-textarea"
+                name="biography"
+                placeholder="Bio example placeholder..."
+              ></textarea>
+            </div>
+
+            <div class="input-container">
+              <label for="businessExperience"
+                >Company Goals and Objectives</label
+              >
+              <p class="input-explainer-text">Placeholder</p>
+              <textarea
+                class="input-textarea"
+                name="businessExperience"
+                placeholder="Bio example placeholder..."
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="update-account-sticky">
+        <div class="update-account-container">
+          <button class="update-account-btn">
+            <span>Update Account</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script></script>
+</html>
